@@ -1,0 +1,9 @@
+import PolicyLayout from "../components/PolicyLayout";
+export default function Returns() { return <PolicyLayout eyebrow="CUSTOMER CARE" title="Returns & Refunds" subtitle="Understand how product concerns, return requests and refund enquiries will be handled." sections={[
+  { heading: "Our Returns Approach", paragraphs: ["LUXURY FURNITURE MURANG'A aims to provide customers with clear information about product concerns and return requests.", "Return eligibility and available remedies must follow the business's approved return policy and applicable consumer protection requirements."] },
+  { heading: "When to Report a Problem", paragraphs: ["Customers should contact the business promptly if furniture arrives damaged, incomplete or different from what was confirmed in their order.", "Where possible, provide the order reference, photographs and a description of the issue."] },
+  { heading: "Return Eligibility", paragraphs: ["The conditions under which products can be returned, including any exclusions, must be confirmed by the business."], note: "Business information required: Confirm eligible return reasons, product exclusions and any applicable return period." },
+  { heading: "Damaged or Incorrect Products", paragraphs: ["Customers who receive damaged or incorrect products should report the issue through the official customer support channel.", "The business should review the information and communicate the appropriate resolution."] },
+  { heading: "Refunds", paragraphs: ["Refund eligibility, approval procedures, available refund methods and processing timelines must be confirmed before being communicated as business policy."], note: "Business information required: Specify refund methods, conditions and processing timelines." },
+  { heading: "Exchanges and Replacements", paragraphs: ["Any exchange or replacement arrangement is subject to the business's confirmed policy and product availability."] },
+]}/>; }
